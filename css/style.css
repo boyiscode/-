@@ -1,0 +1,435 @@
+/* body {
+    background: url(../index.png) no-repeat top;
+} */
+/* 导航 */
+.nav {
+    height: 58px;
+    /* background-color: pink;
+    opacity: 0.5; */
+}
+.nav .nav-container {
+    background-color: #191D3A;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 58px;
+    top: 0;
+    /* opacity: 0.5; */
+}
+.nav .nav-inner {
+    margin: 0 auto;
+    height: 58px;
+    line-height: 58px;
+    width: 1000px;
+    /* background-color: pink; */
+    /* opacity: 0.5; */
+}
+.nav .logo {
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+    text-indent: -999em;
+    background: url(../images/logo.png);
+}
+.nav ul{
+    float: left;
+    color: #fff;
+    margin-left: 50px;
+    text-align: center;
+
+}
+.nav ul li {
+    float: left;
+}
+.nav .list-item {
+    height: 58px;
+    width: 85PX;
+    /* 改变鼠标图形 */
+    cursor: pointer;
+    border-right: 1px solid #252847; 
+}
+.nav .choose,
+.nav .list-item:hover {
+    background-color: #252847;
+}
+/* 加入我们 */
+.nav .last-item {
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #38b774;
+    margin-top: 12px;
+    margin-left: 14px;
+    border-radius: 4px;
+}
+.nav .nav-lang {
+    float: right;
+    color: #3a4866;
+}
+.nav .lang-zh {
+    color: #38b774;
+}
+/* 大图片 */
+.banner {
+    position: relative;
+    height: 460px;
+    /* background-color: green;*/
+    /* opacity: 0.5;  */
+    background: url(../images/bannerdz01.png) no-repeat top;
+}
+.banner-content {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+    margin-left: 42px;
+    color: #fff;
+}
+/* 第一行 */
+.banner .first {
+    height: 71px;
+}
+.banner .first img {
+    float: left;
+    margin-right: 14px;
+    margin-top: 5px;
+}
+.banner .first .title-part {
+    float: left;
+    margin-right: 102px;
+}
+.banner .first .title-part h2{
+    font-size: 40px;
+    margin-top: -1px;
+}
+.banner .first .title-part p{
+    font-size: 12px;
+}
+.banner .first .btn {
+    float: left;
+    width: 115px;
+    /* height: 37px; */
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    line-height: 37px;
+    text-indent: 17px;
+    /* 圆角 */
+    border-radius: 18px;
+    margin-top: 14px;
+    position: relative;
+}
+
+.banner .first .btn:before,
+.banner .first .btn:after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    border: 4px solid transparent;
+    font-size: 0;
+}
+.banner .first .btn:before {
+    top: 7px;
+    border-bottom-color:  #38b774;
+}
+.banner .first .btn:after {
+    top: 20px;
+    border-top-color:  #38b774;
+}
+.banner .btn .icons {
+    text-align: center;
+    text-indent: 0;
+    /* 默认是隐藏的 */
+    display: none;
+}
+.banner .btn:hover .icons {
+    display: block;
+}
+.banner .btn .icons span {
+    padding: 12px;
+    display: inline-block;
+    margin: 0 2px;
+    background: url(../images/online.png) no-repeat;
+}
+
+.banner .btn span.icon-1 {
+    background-position: -25px -47px;
+}
+.banner .btn span.icon-2 {
+    background-position: -1px -47px;
+}
+.banner .btn span.icon-3 {
+    background-position: -50px -47px;
+}
+.banner .intro {
+    margin-top: 18px;
+    margin-left: -2px;
+    width: 445px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.banner .downlod {
+    color: #FBC660;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 28px;
+    /* 引入图片的路径：相对于CSS文件 */
+    background: url(../images/download.png)  no-repeat 3px -30px;
+}
+.banner .list {
+        margin-top: 13px;
+}
+.banner .list li{
+    float: left;
+    width: 84px;
+    text-align: center;
+    padding-top: 2px;
+    background-color: #7052D6;
+    padding-bottom: 14px;
+}
+.banner .list li span {
+    display: inline-block;
+    padding: 28px;
+    background-repeat: no-repeat;
+    background-image: url(../images/pad.png);
+}
+.banner .list li p {
+    font-size: 14px;
+    margin-top: 11px;
+    margin-right: 6px;
+}
+.banner .list .item1 span{
+    background-position: -226px -183px;
+}
+.banner .list .item2 span{
+    background-position: -233px 17px;
+}
+.banner .list .item3 span{
+    background-position: -233px -83px;
+}
+.banner .list .item4 span{
+    background-position: -229px -483px;
+}
+.banner .list .item5 {
+    margin-right: 5px;
+    padding: 13px;
+    padding-bottom: 9px;
+    background-color: #CABEF0;
+}
+
+/* 内容区域 */
+.content {
+    /* height: 700px; */
+    margin: 0 auto;
+    width: 1000px;
+    /* background-color: orange;
+    opacity: 0.5; */
+    position: relative;
+}
+.content .movie-list {
+    margin-right: -42.666666px;
+    margin-top: 50px;
+    padding-bottom: 37px;
+    border-bottom: 1px solid #dbe1e7;
+
+}
+/* 列表布局的公式 w = iw * n + ( n -1 ) *m */
+/* 1000 = 218 * 4 + ( 4 - 1 ) * m */
+/* m = ( 1000 - 218 * 4 )/( 4 -1 ) */
+.content .movie-list li {
+    float: left;
+    width: 218px;
+    margin-right: 42.666666px;
+}
+.content .movie-list img {
+    width: 218px;
+    height: 128px;
+    /* 1 转成块元素 */
+    display: block;
+}
+.content .movie-list .intro {
+    height: 64px;
+    text-align: center;
+}
+.content .movie-list h3 {
+    font-weight: normal;
+    font-size: 14px;
+    /* padding: 2px; */
+    padding-top: 7px;
+}
+.content .movie-list p {
+    color: #38b774;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.content .movie-list p::after {
+    content: "";
+    display: inline-block;
+    border: 4px solid transparent;
+    border-left-color: #38b774;
+    position: relative;
+    left: 6px;
+}
+/* 鼠标滑到li上更改颜色 */
+.content .movie-list li:hover .intro {
+    background-color: #38b774;
+    color: #fff;
+}
+.content .movie-list li:hover P {
+    color: #fff;
+}
+.content .movie-list li:hover p::after {
+    border-left-color: #fff;
+}
+/* 按钮 */
+.btns {
+    position: absolute;
+    top: 217px;
+    left: 50%;
+    width: 68px;
+    margin-left: -34px;
+    text-align: center;
+    background-color: #fff;
+    /* opacity: 0.5; */
+
+
+}
+.btns span {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color: #b5c0cb;
+    /* 圆角 */
+    border-radius: 50%;
+    margin: 7px;
+}
+.btns .btns-1 {
+    background-color: #38b774;
+}
+/* 新闻区域 */
+ .news {
+    /* background-color: pink; */
+    /* opacity: 0.5; */
+    height: 376px;
+    background: url(../images/indexmainbg.jpg) no-repeat center top;
+    padding-top: 44px;
+}
+.news .news-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.news .news-left {
+    float: left;
+    width: 50%;
+    padding-top: 120px;
+    background: url(../images/bynewsbg.jpg) no-repeat left top;
+    position: relative;
+}
+.news .news-left ul {
+    padding:0 20px;    
+}
+.news .news-left li {
+    line-height: 49px;
+    border-bottom: 1px solid #dbe1e7;
+    font-size: 14px;
+}
+.news .news-left li span {
+    float: right;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.news .news-right {
+    float: left;
+    width: 50%;
+    height: 310px;
+    margin-top: 10px;
+    background: url(../images/byhrbg3.jpg) no-repeat left top;
+} 
+.news .more{
+    border: 1px solid #38b774;
+    color: #38b774;
+    border-radius: 3px;
+    padding: 6px 10px;
+    font-size: 12px;
+    padding: 4px 9px;
+    /* top:
+    left: 10px;*/
+} 
+.news .news-inner .more span {
+    position: relative;
+    top: -4px;
+    right: -3px;
+}
+.news .news-left .more {
+    position: absolute;
+    top: 50px;
+    left: 217px;
+
+}
+.news .news-right {
+    color: #fff;
+    position: relative;
+
+}
+.news .info {
+    padding-top: 37px;
+    padding-left: 81px;
+}
+.news .info h3 {
+    font-size: 28px;
+}
+.news .info p {
+    font-size: 12px;
+}
+.news .news-right .more {
+    color: #fff;
+    border-color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 217px;
+}
+.news .news-job-title{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.news .news-jobs  {
+    margin-left: 20px;
+    font-size: 14px;
+    width: 305px;
+}
+.news .news-jobs li{
+    line-height: 37px;
+    border-bottom: 1px solid #6fdea3;
+}
+/* 页脚 */
+.footer {
+    height: 140px;
+    padding-top: 40px;
+    background-color: #191d3a;
+    /* background: pink; */
+    /* opacity: 0.5; */
+    position: relative;
+}
+.footer p {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: -3px;
+    font-size: 12px;
+    color: #6c6e7e;
+    margin-bottom: 40px;
+    position: relative;
+}
+/* .footer .gong {
+    background: url(../images/govIcon.gif);
+    width: 37px;
+    height: 51px;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+} */
+.footer img {
+    position: absolute;
+    right: 482px;
+    top: 20px;
+
+}
